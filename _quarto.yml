@@ -1,5 +1,6 @@
 project:
   type: website
+  # soutput-dir: docs
 
 website:
   title: "My DSCI 310 Website"
