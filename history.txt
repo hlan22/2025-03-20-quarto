@@ -1,0 +1,144 @@
+    1  refresh
+    2  ls
+    3  cd./
+    4  cd .
+    5  ls
+    6  cd ..
+    7  ls
+    8  R
+    9  cd Documents/
+   10  pwd
+   11  cd Documents
+   12  git clone https://github.com/hlan22/2025-03-18-data-validation.git
+   13  cd 2025-03-18-data-validation
+   14  code pointblank.R
+   15  git status
+   16  git add .
+   17  git commit -m "notes from lecture"
+   18  git push origin main
+   19  git pull
+   20  cd ..
+   21  cd 02_microshunt
+   22  git status
+   23  git status
+   24  git add docs/02-microshunt-second-report.pdf docs/02-microshunt-second-report.qmd
+   25  git commit -m "small formatting updates and changes"
+   26  git push origin main
+   27  git pull
+   28  git push origin main
+   29  git status
+   30  git add outputs/missing_iop_horizontal_bar.png outputs/previous_preserflo_plot.png
+   31  git add outputs/missing_iop_values_over_time.png outputs/previous_history_bar_plots.png
+   32  git add src/02-01-eda_heidi.R
+   33  git commit -m "update eda plots and code"
+   34  git status
+   35  git add docs/02-microshunt-second-report.qmd
+   36  git commit -m "basic outline for added eda plots in document"
+   37  git push origin main
+   38  git status
+   39  git status
+   40  git add outputs/missing_iop_per_group.png src/02-01-eda_heidi.R
+   41  git commit -m "created new eda plot for missing values PER treatment group"
+   42  git push origin main
+   43  git pull
+   44  git status
+   45  git pull
+   46  git add outputs/*
+   47  git status
+   48  git add src/02-01-eda_heidi.R
+   49  git commit -m "adding logmar eda plot, update sizing, coloring, and coding of other plots"
+   50  git push origin main
+   51  git status
+   52  git status
+   53  git add src/01-02-data_transform.R
+   54  git commit -m "fixed major problem with how the data recorded second_surgery and needling"
+   55  git status
+   56  git add outputs/*
+   57  git add src/02-01-eda_heidi.R
+   58  git status
+   59  git status
+   60   git commit -m "created plots for secondary surgeries for report"
+   61  git add docs/02-microshunt-second-report.qmd
+   62  git commit -m "added some plots and descriptions to the report"
+   63  git push origin main
+   64  cd ..
+   65  cd my_website
+   66  git status
+   67  cd images/
+   68  code .gitkeep
+   69  cd ..
+   70  git status
+   71  git status
+   72  git add index.qmd pages/projects.qmd pages/visualizations.qmd
+   73  git commit -m "small updates to the pages, include current events on the main page"
+   74  git status
+   75  git add .
+   76  git status
+   77  git add .
+   78  git status
+   79  git commit -m "add an images folder and do not track contents"
+   80  git push origin main
+   81  git status
+   82  cd ..
+   83  cd 02_microshunt
+   84  cd ..
+   85  git status
+   86  cd my_website
+   87  git status
+   88  git add .
+   89  git commit -m "change pages locations to fix website rendering issue"
+   90  git push origin main
+   91  cd ..
+   92  git clone https://github.com/hlan22/2025-03-20-quarto.git
+   93  cd 2025-03-20-quarto
+   94  quarto create
+   95  cd ..
+   96  cd my_website
+   97  git revert
+   98  git status
+   99  git reset
+  100  git status
+  101  git reset --hard
+  102  git status
+  103  cd ..
+  104  cd 2025-03-20-quarto
+  105  git status
+  106  git status
+  107  git add .
+  108  git commit -m "create a website"
+  109  git status
+  110  git add .
+  111  git commit -m "locational changes"
+  112  git push origin main
+  113  git status
+  114  git switch --orphan gh-pages
+  115  git commit --allow-empty -m "initializing gh-pages branch"
+  116  git push origin gh-pages
+  117  git switch main
+  118  quarto publish gh-pages
+  119  git status
+  120  git add .
+  121  git commit -m "final changes made from class"
+  122  git status
+  123  git pull
+  124  git push origin main
+  125  git status
+  126  git add .
+  127  git status
+  128  code styles.css
+  129  cd ..
+  130  cd my_website
+  131  code styles.css
+  132  git status
+  133  git status
+  134  git add .
+  135  git commit -m "moved files and created css styling for colored blocks"
+  136  git push origin main
+  137  git status
+  138  git add .
+  139  git commit -m "update so that everything is in the docs/ folder"
+  140  git push origin main
+  141  cd ..
+  142  ls
+  143  cd  2025-03-20-quarto/
+  144  history >history.txt
